@@ -23,6 +23,7 @@
 #include <ArduinoJson.h>
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
+#define FASTLED_ALLOW_INTERRUPTS 0
 #include "FastLED.h"
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
